@@ -1,7 +1,11 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
 body {
 		background-color: #2e2e2e;
 		color: #ffffff;
-		font-family: monospace;
+		font-family: 'Courier Prime', monospace;
 		margin: 0;
 		display: flex;
 		justify-content: center;
@@ -70,7 +74,7 @@ body {
 		border: none;
 		background-color: #000000;
 		color: #ffffff;
-		font-family: monospace;
+		font-family: 'Courier Prime', monospace;
 		font-size: 1em;
 		outline: none;
 }
