@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing</title>
+    <title>HCC Terminal</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <div class="terminal" id="terminal">
+        <div class="header" id="header">
+            <div class="buttons">
+                <span class="button red"></span>
+                <span class="button yellow"></span>
+                <span class="button green"></span>
+            </div>
+            <div class="title">HCC Terminal</div>
+        </div>
+        <div class="body">
+            <pre id="output"></pre>
+            <input type="text" id="input" autofocus>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/drag.js"></script>
 </body>
-<script src="./js/utils.js"></script> <!-- Import the utils.js file from the directory 'js' -->
-<script>
-    changeDocumentTitle('HCC // Landing'); // Change the document title
-</script>
 </html>
