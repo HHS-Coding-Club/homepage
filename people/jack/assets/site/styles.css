@@ -1,0 +1,204 @@
+@font-face {
+	font-family: 'PhanSiteFont';
+	src: url('../phan.otf') format('opentype');
+}
+
+body {
+	font-family: 'Arsenal', sans-serif;
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #e60012;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	border-radius: 0 0 20px 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+	font-family: 'PhanSiteFont', sans-serif;
+	font-size: 5em;
+	color: black;
+	animation: fadeIn 1s ease-out;
+}
+
+.main-section {
+	padding: 50px 20px;
+	text-align: center;
+	background: url('../persona5_bg.jpg') no-repeat center center/cover;
+	position: relative;
+	animation: slideInFromLeft 1s ease-out;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+.main-section h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.main-section p {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.btn {
+	background-color: #e60012;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 1em;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+	position: relative;
+	border-radius: 20px;
+}
+
+.btn:hover {
+	background-color: #ff1a1a;
+	transform: scale(1.05);
+}
+
+.main-section .joker-img {
+	max-width: 200px;
+	margin: 20px auto;
+	display: block;
+	animation: bounceIn 1s ease-out;
+	border-radius: 20px;
+}
+
+.spotify-embed {
+	margin-top: 20px;
+	animation: fadeIn 1s ease-out;
+	border-radius: 12px;
+}
+
+.gallery-section {
+	padding: 40px 20px;
+	background-color: #222;
+	animation: fadeIn 1s ease-out;
+	border-radius: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+.gallery-section h3 {
+	font-size: 1.8em;
+	margin-bottom: 20px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery img {
+	max-width: 200px;
+	margin: 10px;
+	border-radius: 10px;
+	transition: transform 0.3s;
+}
+
+.gallery img:hover {
+	transform: scale(1.1);
+}
+
+.character-section {
+	padding: 40px 20px;
+	animation: fadeIn 1s ease-out;
+	border-radius: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+.character {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.character-text {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.character img {
+	max-width: 200px;
+	border-radius: 20px;
+}
+
+.all-out-attack {
+	margin-top: 20px;
+	max-width: 500px;
+	border-radius: 20px;
+}
+
+.join-section {
+	padding: 40px 20px;
+	background-color: #222;
+	animation: fadeIn 1s ease-out;
+	border-radius: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+.join-section h3 {
+	font-size: 1.8em;
+	margin-bottom: 20px;
+}
+
+.join-section p {
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+.footer {
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+
+@keyframes fadeIn {
+	from {
+			opacity: 0;
+	}
+
+	to {
+			opacity: 1;
+	}
+}
+
+@keyframes slideInFromLeft {
+	from {
+			transform: translateX(-100%);
+	}
+
+	to {
+			transform: translateX(0);
+	}
+}
+
+@keyframes bounceIn {
+	from {
+			transform: scale(0.5);
+			opacity: 0;
+	}
+
+	to {
+			transform: scale(1);
+			opacity: 1;
+	}
+}
