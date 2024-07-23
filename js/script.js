@@ -10,7 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		const commands = {
 				help: function() {
-						return "Available commands:\n- help\n- about\n- contact\n- schedule\n- members\n- clear\n- dir\n- whoami\n- echo\n- logout\n- shutdown\n- slack\n- discord\n- cd\n- neofetch\n- cat";
+						return "Available commands:\n- help\n- license\n- about\n- contact\n- schedule\n- members\n- clear\n- dir\n- whoami\n- echo\n- logout\n- shutdown\n- slack\n- discord\n- cd\n- neofetch\n- cat";
+				},
+				license: function() {
+						window.location.href = './license.html';
+						return "Sending to Carbonated License page.";
 				},
 				about: function() {
 						return "This is the HCC programming club's website. Our mission is to inspire and educate students in the field of computer science.";
