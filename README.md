@@ -1,6 +1,6 @@
 # Homepage
 
-Hello there! This is [HCC's](https://github.com/HHS-Coding-Club) official repository for our GitHub page.
+Hello there! This is [HCC's](https://github.com/HHS-Coding-Club) official repository for our website.
 This website contains information about the club, along with projects that members of the club have created.
 
 ## Contributing
@@ -12,4 +12,4 @@ If you don't feel like using replit, you can always send a pull request our way.
 
 ## License
 
-This repository is licensed under the Apache License 2.0. See the LICENSE file for details.
+This repository is licensed under the Carbonated License. You can find it in the LICENSE file.
