@@ -1,167 +1,304 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Persona 5 Phan Site</title>
-    <link rel="stylesheet" href="assets/site/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/site/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1>ThE PhAn siTe</h1>
+      <h1>ThE PhAn siTe</h1>
     </header>
     <div class="main-section">
-        <h2>Welcome to the World of Persona 5</h2>
-        <p>Join the Phantom Thieves in their quest to change the hearts of corrupt adults and awaken the power within themselves. Dive into the Metaverse, explore Mementos, and summon powerful Personas to combat shadows and uncover the truth!</p>
-        <button class="btn" onclick="scrollToCharacters()">Meet the Phantom Thieves</button>
-        <img src="assets/joker.jpeg" alt="Joker from Persona 5" class="joker-img">
-        <iframe class="spotify-embed" src="https://open.spotify.com/embed/track/0LNyWv4RYKbaXIvzk6nMxZ?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <h2>Welcome to the World of Persona 5</h2>
+      <p>
+        Join the Phantom Thieves in their quest to change the hearts of corrupt
+        adults and awaken the power within themselves. Dive into the Metaverse,
+        explore Mementos, and summon powerful Personas to combat shadows and
+        uncover the truth!
+      </p>
+      <button class="btn" onclick="scrollToCharacters()">
+        Meet the Phantom Thieves
+      </button>
+      <img
+        src="assets/joker.jpeg"
+        alt="Joker from Persona 5"
+        class="joker-img"
+      />
+      <iframe
+        class="spotify-embed"
+        src="https://open.spotify.com/embed/track/0LNyWv4RYKbaXIvzk6nMxZ?utm_source=generator"
+        width="100%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
     </div>
     <div class="gallery-section">
-        <h3>Gallery</h3>
-        <div class="gallery">
-            <img src="assets/gallery/gallery1.jpg" alt="Gallery Image 1">
-            <img src="assets/gallery/gallery2.jpg" alt="Gallery Image 2">
-            <img src="assets/gallery/gallery3.png" alt="Gallery Image 3">
-            <img src="assets/gallery/gallery4.png" alt="Gallery Image 4">
-        </div>
+      <h3>Gallery</h3>
+      <div class="gallery">
+        <img src="assets/gallery/gallery1.jpg" alt="Gallery Image 1" />
+        <img src="assets/gallery/gallery2.jpg" alt="Gallery Image 2" />
+        <img src="assets/gallery/gallery3.png" alt="Gallery Image 3" />
+        <img src="assets/gallery/gallery4.png" alt="Gallery Image 4" />
+      </div>
     </div>
-    <div id="character-section" class="character-section" style="background-color: #0d0d0d; color: #d92323;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;">Ren Amamiya</h4>
-                <p><strong>Background:</strong> The protagonist of Persona 5. A high school student who is falsely accused of assault and put on probation.</p>
-                <p><strong>Persona:</strong> Arsène</p>
-                <p><strong>Arcana:</strong> Fool</p>
-            </div>
-            <img src="assets/chars/joker.webp" alt="Joker">
+    <div
+      id="character-section"
+      class="character-section"
+      style="background-color: #0d0d0d; color: #d92323"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">Ren Amamiya</h4>
+          <p>
+            <strong>Background:</strong> The protagonist of Persona 5. A high
+            school student who is falsely accused of assault and put on
+            probation.
+          </p>
+          <p><strong>Persona:</strong> Arsène</p>
+          <p><strong>Arcana:</strong> Fool</p>
         </div>
-        <img src="assets/all/joker_all.webp" alt="THE SHOW'S OVER" class="all-out-attack">
+        <img src="assets/chars/joker.webp" alt="Joker" />
+      </div>
+      <img
+        src="assets/all/joker_all.webp"
+        alt="THE SHOW'S OVER"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #595959; color: #EAFF00;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Morgana</h4>
-                <p><strong>Background:</strong> A mysterious, talking cat-like creature who insists he is a human.</p>
-                <p><strong>Persona:</strong> Zorro</p>
-                <p><strong>Arcana:</strong> Magician</p>
-            </div>
-            <img src="assets/chars/morgana.webp" alt="Morgana">
+    <div
+      class="character-section"
+      style="background-color: #595959; color: #eaff00"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">Morgana</h4>
+          <p>
+            <strong>Background:</strong> A mysterious, talking cat-like creature
+            who insists he is a human.
+          </p>
+          <p><strong>Persona:</strong> Zorro</p>
+          <p><strong>Arcana:</strong> Magician</p>
         </div>
-        <img src="assets/all/morgana_all.webp" alt="MISSION ACCOMPLISHED" class="all-out-attack">
+        <img src="assets/chars/morgana.webp" alt="Morgana" />
+      </div>
+      <img
+        src="assets/all/morgana_all.webp"
+        alt="MISSION ACCOMPLISHED"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #580000; color: #FFF177;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Ryuji Sakamoto</h4>
-                <p><strong>Background:</strong> A former track team star who became a delinquent after a scandal.</p>
-                <p><strong>Persona:</strong> Captain Kidd</p>
-                <p><strong>Arcana:</strong> Chariot</p>
-            </div>
-            <img src="assets/chars/ryuji.webp" alt="Ryuji">
+    <div
+      class="character-section"
+      style="background-color: #580000; color: #fff177"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">
+            Ryuji Sakamoto
+          </h4>
+          <p>
+            <strong>Background:</strong> A former track team star who became a
+            delinquent after a scandal.
+          </p>
+          <p><strong>Persona:</strong> Captain Kidd</p>
+          <p><strong>Arcana:</strong> Chariot</p>
         </div>
-        <img src="assets/all/ryuji_all.webp" alt="FREAKING BORING" class="all-out-attack">
+        <img src="assets/chars/ryuji.webp" alt="Ryuji" />
+      </div>
+      <img
+        src="assets/all/ryuji_all.webp"
+        alt="FREAKING BORING"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #252323; color: #fdadcd;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Ann Takamaki</h4>
-                <p><strong>Background:</strong> A fashion model and one of Joker's classmates.</p>
-                <p><strong>Persona:</strong> Carmen</p>
-                <p><strong>Arcana:</strong> Lovers</p>
-            </div>
-            <img src="assets/chars/ann.webp" alt="Ann">
+    <div
+      class="character-section"
+      style="background-color: #252323; color: #fdadcd"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">Ann Takamaki</h4>
+          <p>
+            <strong>Background:</strong> A fashion model and one of Joker's
+            classmates.
+          </p>
+          <p><strong>Persona:</strong> Carmen</p>
+          <p><strong>Arcana:</strong> Lovers</p>
         </div>
-        <img src="assets/all/ann_all.webp" alt="OMG WE ARE SO AWESOME" class="all-out-attack">
+        <img src="assets/chars/ann.webp" alt="Ann" />
+      </div>
+      <img
+        src="assets/all/ann_all.webp"
+        alt="OMG WE ARE SO AWESOME"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #3b5998; color: #ffffff;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Yusuke Kitagawa</h4>
-                <p><strong>Background:</strong> An eccentric artist who attends Kosei High School.</p>
-                <p><strong>Persona:</strong> Goemon</p>
-                <p><strong>Arcana:</strong> Emperor</p>
-            </div>
-            <img src="assets/chars/yusuke.webp" alt="Yusuke">
+    <div
+      class="character-section"
+      style="background-color: #3b5998; color: #ffffff"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">
+            Yusuke Kitagawa
+          </h4>
+          <p>
+            <strong>Background:</strong> An eccentric artist who attends Kosei
+            High School.
+          </p>
+          <p><strong>Persona:</strong> Goemon</p>
+          <p><strong>Arcana:</strong> Emperor</p>
         </div>
-        <img src="assets/all/yusuke_all.webp" alt="ALL CREATION IS... ART!" class="all-out-attack">
+        <img src="assets/chars/yusuke.webp" alt="Yusuke" />
+      </div>
+      <img
+        src="assets/all/yusuke_all.webp"
+        alt="ALL CREATION IS... ART!"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #282828; color: #9C92A3;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Makoto Niijima</h4>
-                <p><strong>Background:</strong> The student council president of Shujin Academy.</p>
-                <p><strong>Persona:</strong> Johanna</p>
-                <p><strong>Arcana:</strong> Priestess</p>
-            </div>
-            <img src="assets/chars/makoto.webp" alt="Makoto">
+    <div
+      class="character-section"
+      style="background-color: #282828; color: #9c92a3"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">
+            Makoto Niijima
+          </h4>
+          <p>
+            <strong>Background:</strong> The student council president of Shujin
+            Academy.
+          </p>
+          <p><strong>Persona:</strong> Johanna</p>
+          <p><strong>Arcana:</strong> Priestess</p>
         </div>
-        <img src="assets/all/makoto_all.webp" alt="JUSTICE WILL PREVAIL!" class="all-out-attack">
+        <img src="assets/chars/makoto.webp" alt="Makoto" />
+      </div>
+      <img
+        src="assets/all/makoto_all.webp"
+        alt="JUSTICE WILL PREVAIL!"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #141414; color: #2DD881;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Futaba Sakura</h4>
-                <p><strong>Background:</strong> A genius hacker and socially awkward shut-in.</p>
-                <p><strong>Persona:</strong> Necronomicon</p>
-                <p><strong>Arcana:</strong> Hermit</p>
-            </div>
-            <img src="assets/chars/futaba.webp" alt="Futaba">
+    <div
+      class="character-section"
+      style="background-color: #141414; color: #2dd881"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">Futaba Sakura</h4>
+          <p>
+            <strong>Background:</strong> A genius hacker and socially awkward
+            shut-in.
+          </p>
+          <p><strong>Persona:</strong> Necronomicon</p>
+          <p><strong>Arcana:</strong> Hermit</p>
         </div>
-        <img src="assets/all/futaba_all.webp" alt="HACK THE PLANET!" class="all-out-attack">
+        <img src="assets/chars/futaba.webp" alt="Futaba" />
+      </div>
+      <img
+        src="assets/all/futaba_all.webp"
+        alt="HACK THE PLANET!"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #5B0A50; color: #ffc9dc;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Haru Okumura</h4>
-                <p><strong>Background:</strong> The daughter of a wealthy businessman.</p>
-                <p><strong>Persona:</strong> Milady</p>
-                <p><strong>Arcana:</strong> Empress</p>
-            </div>
-            <img src="assets/chars/haru.webp" alt="Haru">
+    <div
+      class="character-section"
+      style="background-color: #5b0a50; color: #ffc9dc"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">Haru Okumura</h4>
+          <p>
+            <strong>Background:</strong> The daughter of a wealthy businessman.
+          </p>
+          <p><strong>Persona:</strong> Milady</p>
+          <p><strong>Arcana:</strong> Empress</p>
         </div>
-        <img src="assets/all/haru_all.webp" alt="THAT WAS EASY!" class="all-out-attack">
+        <img src="assets/chars/haru.webp" alt="Haru" />
+      </div>
+      <img
+        src="assets/all/haru_all.webp"
+        alt="THAT WAS EASY!"
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #FF0000; color: #ffffff;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Goro Akechi</h4>
-                <p><strong>Background:</strong> A high school detective who opposes the Phantom Thieves.</p>
-                <p><strong>Persona:</strong> Robin Hood</p>
-                <p><strong>Arcana:</strong> Justice</p>
-            </div>
-            <img src="assets/chars/akechi.webp" alt="Akechi">
+    <div
+      class="character-section"
+      style="background-color: #ff0000; color: #ffffff"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">Goro Akechi</h4>
+          <p>
+            <strong>Background:</strong> A high school detective who opposes the
+            Phantom Thieves.
+          </p>
+          <p><strong>Persona:</strong> Robin Hood</p>
+          <p><strong>Arcana:</strong> Justice</p>
         </div>
-        <img src="assets/all/akechi_all.webp" alt="CHECKMATE." class="all-out-attack">
+        <img src="assets/chars/akechi.webp" alt="Akechi" />
+      </div>
+      <img
+        src="assets/all/akechi_all.webp"
+        alt="CHECKMATE."
+        class="all-out-attack"
+      />
     </div>
-    <div class="character-section" style="background-color: #ff4c4c; color: #ffffff;">
-        <div class="character">
-            <div class="character-text">
-                <h4 style="font-family: 'PhanSiteFont', sans-serif;"> Kasumi Yoshizawa</h4>
-                <p><strong>Background:</strong> A talented gymnast and new transfer student at Shujin Academy.</p>
-                <p><strong>Persona:</strong> Cendrillon</p>
-                <p><strong>Arcana:</strong> Faith</p>
-            </div>
-            <img src="assets/chars/kasumi.webp" alt="Kasumi">
+    <div
+      class="character-section"
+      style="background-color: #ff4c4c; color: #ffffff"
+    >
+      <div class="character">
+        <div class="character-text">
+          <h4 style="font-family: 'PhanSiteFont', sans-serif">
+            Kasumi Yoshizawa
+          </h4>
+          <p>
+            <strong>Background:</strong> A talented gymnast and new transfer
+            student at Shujin Academy.
+          </p>
+          <p><strong>Persona:</strong> Cendrillon</p>
+          <p><strong>Arcana:</strong> Faith</p>
         </div>
-        <img src="assets/all/kasumi_all.webp" alt="VICTORY IS OURS!" class="all-out-attack">
+        <img src="assets/chars/kasumi.webp" alt="Kasumi" />
+      </div>
+      <img
+        src="assets/all/kasumi_all.webp"
+        alt="VICTORY IS OURS!"
+        class="all-out-attack"
+      />
     </div>
     <div class="join-section">
-        <h3>Website by Jack</h3>
-        <p>Hi there! This was a cool example of something you could make in HTML! With the power of programming, you could make a website like this!</p>
+      <h3>Website by Jack</h3>
+      <p>
+        Hi there! This was a cool example of something you could make in HTML!
+        With the power of programming, you could make a website like this!
+      </p>
     </div>
     <footer class="footer">
-        <p>Follow me on <a href="https://github.com/colack">GitHub</a></p>
-        <p>Contact me at: spencerjack646@gmail.com</p>
+      <p>Follow me on <a href="https://github.com/colack">GitHub</a></p>
+      <p>Contact me at: spencerjack646@gmail.com</p>
     </footer>
     <script src="assets/site/script.js"></script>
     <script>
-        function scrollToCharacters() {
-            document.getElementById('character-section').scrollIntoView({ behavior: 'smooth' });
-        }
+      function scrollToCharacters() {
+        document
+          .getElementById('character-section')
+          .scrollIntoView({ behavior: 'smooth' })
+      }
     </script>
-</body>
+  </body>
 </html>

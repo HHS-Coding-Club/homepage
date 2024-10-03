@@ -1,0 +1,14 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "the homepage for hanfords coding club",
+  "main": "./node-scripts/index.js",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "author": "colack",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
