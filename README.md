@@ -15,5 +15,5 @@ If you don't feel like using replit, you can always send a pull request our way.
 
 ## License
 
-This repository is licensed under the Carbonated License. You can find it in the
+This repository is licensed under our clubs custom Carbonated License. You can find it in the
 LICENSE file.
